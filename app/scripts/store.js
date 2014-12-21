@@ -1,0 +1,1 @@
+Emberyo.ApplicationAdapter = DS.FixtureAdapter;
