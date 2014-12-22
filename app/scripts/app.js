@@ -10,3 +10,10 @@ require('scripts/views/*');
 require('scripts/router');
 
 Emberyo.appName="bader";
+
+Emberyo.dataarray=[
+{id:1,name:"bader",age :"24",city:"madinah"},
+{id:2,name:"majed",city:"jeedah"},
+{id:3,name:"samer",age :"23",city:"makkah"}
+
+];

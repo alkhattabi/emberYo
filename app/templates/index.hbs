@@ -5,4 +5,17 @@
 	{{#link-to "index"}}
 	{{Emberyo.appName}}
 	{{/link-to}}
+
+
+	{{input type="text" value="put your name here"}}
+	<br>
+	<ul>
+	{{#each Emberyo.dataarray}}
+	{{#if age}}
+		<li>{{name}} , "{{age}}" </li>
+		{{else}}
+		<li>{{name}}  </li>
+		{{/if}}
+	{{/each}}
+	</ul>
 </div>
